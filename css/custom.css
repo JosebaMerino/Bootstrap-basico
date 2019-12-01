@@ -1,3 +1,21 @@
+/* Media querys
+*********************************************/
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;;
+    }
+}
+
+
+/* Clases
+*********************************************/
 .navbar {
     min-height: 7vh;
 }
@@ -9,7 +27,7 @@
 
 .main {
     min-height: 86vh;
-    padding-top: 15px;
+    margin-bottom: 7vh;
 }
 
 .dataTable {
