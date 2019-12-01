@@ -16,6 +16,10 @@
 
 /* Clases
 *********************************************/
+.patas {
+    filter: contrast(0.1) sepia() brightness(1);
+    opacity: 90%;
+}
 .navbar {
     min-height: 7vh;
 }
