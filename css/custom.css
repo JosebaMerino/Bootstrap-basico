@@ -9,8 +9,15 @@
 
 .main {
     min-height: 86vh;
+    padding-top: 15px;
 }
 
+.dataTable {
+    width: 100%;
+}
+/*
+    Cambiar el aspecto de todos los componentes del login
+*/
 .login {
     position: relative;
 }
@@ -40,9 +47,8 @@
     opacity: 0.5;
 }
 
-.form-control:focus + label,
-.form-control:valid + label,
-.login label:focus {
+.login .form-control:focus + label,
+.login .form-control:valid + label {
     transform: translate3d(0, -75%, 0);
     opacity: 1;
 }
